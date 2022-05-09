@@ -4,13 +4,15 @@ React,  context api ve Fake api ile hava durumu verilerini çeken react uygulama
 
 harici modüller 
 
-"axios": "^0.27.2",
-"formik": "^2.2.9",
+- "axios": "^0.27.2",
+- "formik": "^2.2.9",
 
 
 * fake apiyi : calıştırmak için
+
       cd "Fake Api"
       npm run start:server
 
 * react uygulaması için
+
       npm start
