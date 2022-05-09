@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {CountryProvider} from './context/CountryContext';
+import FetchComponent from './fetch/FetchComponent';
+import ShowComponent  from './show/ShowComponent'
+import Footer from './footer/footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <CountryProvider>
+      <FetchComponent/>
+      <hr/>
+      <ShowComponent/>
+      <Footer/>
+    </CountryProvider>
+  )
 }
 
-export default App;
+export default App

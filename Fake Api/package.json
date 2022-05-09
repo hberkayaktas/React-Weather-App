@@ -1,0 +1,18 @@
+{
+  "name": "fake-api",
+  "version": "1.0.0",
+  "description": "fake api",
+  "main": "index.js",
+  "scripts": {
+    "start:server": "json-server --watch api/city.list.json"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

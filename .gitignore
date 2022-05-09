@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/Fake Api/node_modules
 /.pnp
 .pnp.js
 
