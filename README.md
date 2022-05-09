@@ -16,3 +16,8 @@ harici modüller
 * react uygulaması için
 
       npm start
+
+
+* uygulama görüntüsü
+
+![Cevap1](Screenshot_1.png)
